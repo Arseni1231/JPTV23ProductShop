@@ -2,14 +2,13 @@ package org.example;
 
 import org.example.intefaces.AppHelper;
 import org.example.intefaces.Input;
-import org.example.Client;
 
 import java.util.List;
 
-public class UserAppHelper implements AppHelper<Client> {
+public class ClientAppHelper implements AppHelper<Client> {
     private final Input input;
 
-    public UserAppHelper(Input input) {
+    public ClientAppHelper(Input input) {
         this.input = input;
     }
 
